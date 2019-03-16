@@ -5,4 +5,6 @@ while guess_count <= guess_limit:
     guess = int(input('Guess: '))
     guess_count += 1
     if guess == secret_number:
-        print('You win')
+        print('You won')
+        break
+else:print("Sorry u lost")
