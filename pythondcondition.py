@@ -7,3 +7,16 @@ elif is_cold:
 else:
     print("It is a lovely day")
 print("Enjoy ur day")
+
+temperature = 30
+if temperature > 30:
+    print("Temperature is high")
+else:print("Temperature is normal")
+
+if temperature == 30:
+    print("Temperature is high")
+else:print("Temperature is normal")
+
+if temperature != 30:
+    print("Temperature is high")
+else:print("Temperature is normal")
