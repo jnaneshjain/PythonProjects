@@ -1,0 +1,45 @@
+Conditions:
+    -if
+    -elif
+    -else
+Logical operators:
+    -and
+    -or
+    -not
+Comparision opeators:
+    - >
+    - ==
+    - !=
+String formatter:
+    - ex: print(f'{somevalue}')
+
+Datastructure in Python:
+    List : It is iterable can be modified, representation using []
+    Tuples : It is iterable but cant be modified , represented using ()
+    Dictionaries : It is key value pair,can be modified, represented using {}
+
+Unpacking in python: ex numbers = [1,2,3]
+                        x,y,z = numbers , it is applicable to list also
+Function in python:
+    - By default function will return None object
+    -  We can have keyword arguement and default parameter in python
+    - If we are mixing positonal arguement and keyworkd arguement then we should write postional arguement first followed by
+        keyword arguement
+
+Error handling:
+    - Using try and except block
+Comments:
+    - # single line comment - shortcut ctrl+/
+
+Class:
+    - Class is the blueprint of the object
+    - Object is the actuall instance of the class
+    - ex className = ClassName()
+
+Constructor:
+    - ex: def _init_(self) using this we can initialize our object
+
+Inheritance:
+    - It is the mechanism to reuse the code
+pass:
+    - telling python interpretor to pass this line dont worry about this
