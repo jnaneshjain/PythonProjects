@@ -13,9 +13,16 @@ Comparision opeators:
 String formatter:
     - ex: print(f'{somevalue}')
 
+Loops:
+    - for loop
+        syntax: for item in someiterable object
+        -ex: for item in range(4) (we can create range function to create range object)
+    - while loop
+        -syntax: while somecondtion:
+
 Datastructure in Python:
     List : It is iterable can be modified, representation using []
-    Tuples : It is iterable but cant be modified , represented using ()
+    Tuples : It is iterable but cant be modified ,it is read only list, represented using ()
     Dictionaries : It is key value pair,can be modified, represented using {}
 
 Unpacking in python: ex numbers = [1,2,3]
@@ -41,5 +48,23 @@ Constructor:
 
 Inheritance:
     - It is the mechanism to reuse the code
-pass:
-    - telling python interpretor to pass this line dont worry about this
+
+Module:
+    - It is basically a file, which has some python code
+    - It can be reused across the file
+    - We can import the whole module or the required module
+    - MOdules are use to organize or code very well
+Packages:
+    - It is an another way to organize our code
+    - It is a container for multiple module
+    - __init__.py it is special file so that python treates directory as a package otherwise it wont treat as package
+    - while imporing modules from differenct packages we should specify package name along with the modules
+Note:
+    - TO find different python modules - search -" python 3 module index" in the browser
+    - pep -> Python enhancement proposal
+    - pass: -> telling python interpretor to pass this line dont worry about this
+    - Relative path -> start from the current directory
+    - Absolute path -> from the root of the hard disk
+    -pypi - Python package index , it has thousands of python packages(visit: "https://pypi.org"
+    -pip  - pip is a package management system used to install and manage software packages written in Python
+
