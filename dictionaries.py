@@ -6,6 +6,13 @@ customer = {
     "age" : 30,
     "is_verfied" : True
 }
+
+for key in customer.values():
+    print(key)
+
+for key in customer.items():
+    print(key)
+
 print(customer["name"])
 #print(customer["birthdate"]) #throws exception since this key is not present
 print(customer.get("birthdate"))

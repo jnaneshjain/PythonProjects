@@ -1,3 +1,8 @@
+Python:
+    - Python is an interpreted, high-level, general-purpose programming language
+Interpretor:
+    - An interpreter works in exactly the same way as a compiler, with one difference: instead of code generation,
+        it loads the output in-memory and executes it directly on your system
 Conditions:
     -if
     -elif
@@ -24,7 +29,7 @@ Datastructure in Python:
     List : It is iterable can be modified, representation using []
     Tuples : It is iterable but cant be modified ,it is read only list, represented using ()
     Dictionaries : It is key value pair,can be modified, represented using {}
-
+    Set: It is iterable , it does not have index. represented using {}
 Unpacking in python: ex numbers = [1,2,3]
                         x,y,z = numbers , it is applicable to list also
 Function in python:
@@ -67,4 +72,5 @@ Note:
     - Absolute path -> from the root of the hard disk
     -pypi - Python package index , it has thousands of python packages(visit: "https://pypi.org"
     -pip  - pip is a package management system used to install and manage software packages written in Python
+    - We can have inner if condition in python ex: print(python in somelist) which returns boolean values.
 
