@@ -68,3 +68,67 @@ Note:
     -pypi - Python package index , it has thousands of python packages(visit: "https://pypi.org"
     -pip  - pip is a package management system used to install and manage software packages written in Python
 
+Anaconda:
+    - Anaconda is a free and open-source Python distribution and collection of hundreds of packages related to data science,
+        scientific programming, development and more.
+    - Python is included in the Anaconda distribution
+    - It is not an IDE (like PyCharm that mentioned in the comments) though it can be configured with most IDEs
+
+Frameword:
+    - Framework is essentially library of reusable modules, this modules provide functionality for common task.
+
+Variable:
+    - Essentially, they're references, or pointers, to an object in memory.
+    - When you assign a variable with = to an instance, you're binding (or mapping) the variable to that instance.
+    - Multiple variables can be bound to the same instance.
+    - Python keeps track of all these mappings with namespaces.
+    - These are containers for mapping names of variables to objects.
+    - You can think of them as dictionaries, containing name:object mappings.
+    - This allows access to objects by names you choose to assign to them.
+    - global keyword:
+        - With global, you're telling Python to use the globally defined variable instead of locally defining it
+    - nonlocal keyword:
+        - The nonlocal statement is useful in nested functions.
+        - It causes the variable to refer to the previously bound variable in the closest enclosing scope.
+        - In other words, it will prevent the variable from trying to bind locally first, and force it to go a level 'higher up'.
+     - Closures in Python:
+        - Closures are function objects that remember values in enclosing scopes, even if they are no longer present in memory
+        - In Python, a function is also considered a object, which means that it can be returned and assigned to a variable.
+
+Role of Underscore in Python(_):
+    - Use In Interpreter :
+        - Python automatically stores the value of the last expression in the interpreter to a particular variable called "_."
+                    -  for example refer to file pythonunderscoreinterpretor.py
+    - Ignoring Values:
+        - Underscore(_) is also used to ignore the values. If you don't want to use specific values while unpacking,
+            just assign that value to underscore(_).
+    - Use in loops:
+        - You can use underscore(_) as a variable in looping
+        - EX: refer file loopunderscorepython.py
+    - Separating Digits Of Numbers
+        ex: million = 1_000_000
+            binary = 0b_0010, octa = 0o_64, hexa = 0x_23_ab
+    -  Naming Using Underscore(_)
+        - Underscore(_) can be used to name variables, functions and classes, etc..,
+            - Single Pre Underscore:- _variable - used only for internal use i.e private to the class
+            - Single Post Underscore:- variable_ - used to avoid conflits with python keywords
+            - Double Pre Underscores:- __variable -Double Pre Underscores are used for the name mangling.
+                                                    - Name Mangling:- interpreter of the Python alters the variable name in a way
+                                           t        hat it is challenging to clash when the class is inherited.
+            - Double Pre and Post Underscores:- __variable__ - In Python, you will find different names which start and end with the double underscore.
+                                                                    They are called as magic methods or dunder methods.
+            ex: refer nameunderscorepython package inside underscorepython
+
+- Getters and setter in python:
+    - In Python we can do getters and setters in java style or using @Property keyword. ex: getersandsetterspython.py
+- When we inherit the parent class , we must explicity call constructor of the parent class to access the instance variable of the parent class
+
+- Inheritance:
+    - Single Inheritance
+    - Multiple Inheritance - supported in python
+    - Multilevel inheritance
+    - Hybrid inheritance
+    - Hierarchical Inheriance
+    -Need to Study
+        - Comprehension in python
+
