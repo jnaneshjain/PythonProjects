@@ -1,3 +1,5 @@
+This is the note file
+
 Python:
     - Python is an interpreted, high-level, general-purpose programming language
 Interpretor:
@@ -136,6 +138,6 @@ Role of Underscore in Python(_):
     - Hybrid inheritance
     - Hierarchical Inheriance
     
- Just for testin
- Testing branch
+
+ Editing master
 
