@@ -137,7 +137,4 @@ Role of Underscore in Python(_):
     - Multilevel inheritance
     - Hybrid inheritance
     - Hierarchical Inheriance
-    
-
- Editing master
 
