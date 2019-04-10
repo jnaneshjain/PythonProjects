@@ -1,3 +1,4 @@
+#This file demonstrates how to remove duplicates in list
 numbers = [2,2,4,6,3,4,6,1]
 unique = []
 for number in numbers:
