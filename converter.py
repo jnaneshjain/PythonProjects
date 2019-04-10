@@ -1,4 +1,4 @@
-
+#This is is simple program to calculate weight
 def lbs_to_kg(weight):
     return weight * 00.45
 
@@ -12,3 +12,4 @@ def find_max(numbers):
          if number > max:
              max = number
      return max
+#End of the file
