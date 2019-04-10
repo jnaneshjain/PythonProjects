@@ -1,3 +1,4 @@
+#This is class
 class A:
     def __init__(self,n = 'jnanesh'):
         self.name = n
