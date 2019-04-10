@@ -1,3 +1,4 @@
+#This is the simple method to demonstrate list methods
 numbers = [1,2,3,4,5,6]
 numbers.append(20) # append to the last
 print(f'before deleting{numbers}')
