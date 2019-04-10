@@ -1,4 +1,4 @@
-# tuple is same as list,but we cant modify tuples
+# tuple is same as list,but we can not modify tuples
 numbers = (1,2,3)
 print(numbers[0])
 #numbers[0] = 10 #throws exception since we cant modify tuples
