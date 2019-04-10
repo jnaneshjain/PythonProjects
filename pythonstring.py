@@ -1,3 +1,4 @@
+#This file demonstrates some of the string methods in python
 course = 'Python for Beginners'
 print(course[0:3])
 print(course[0])
