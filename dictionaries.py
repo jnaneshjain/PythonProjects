@@ -1,5 +1,6 @@
 #Dictionaries are key value pair,keys should be unique,we can modify dictionries
 #None is objec in pyhton, that represents absence of the value
+#This file demonstrate dictionary in python
 
 customer = {
     "name" : "John Smith",
