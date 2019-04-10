@@ -1,3 +1,4 @@
+#This file demonstrates how to handle exception in python
 try:
     age = int(input('Age: '))
     income = 20000
