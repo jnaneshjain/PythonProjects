@@ -28,6 +28,7 @@ for x in ["A", "B", "C"]])
 # list which extracts number
 string = "my phone number is : 11122 !!"
 
+#Simple print statement
 print("\nExtracted digits")
 numbers = [x for x in string if x.isdigit()]
 print(numbers)
