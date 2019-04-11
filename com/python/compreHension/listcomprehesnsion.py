@@ -1,4 +1,4 @@
-# Python program to demonstrate list comprehension in Python
+# Python program to demonstrate list compreHension in Python
 
 # below list contains square of all odd numbers from
 # range 1 to 10
@@ -40,3 +40,4 @@ table = [[a, b, a * b] for b in range(1, 11)]
 print("\nMultiplication Table")
 for i in table:
     print(i)
+#End of file
