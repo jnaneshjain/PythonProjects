@@ -1,4 +1,4 @@
-# Python program to demonstrate list listanddictionarycomprehensions in Python
+# Python program to demonstrate list comprehensions in Python
 
 # below list contains square of all odd numbers from
 # range 1 to 10
