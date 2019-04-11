@@ -1,4 +1,4 @@
-# Python Code to Demonstrate dictionary comprehensions
+# Python Code to Demonstrate Dictionary pythoncomprehensions
 
 # Lists to represent keys and values
 keys = ['a', 'b', 'c', 'd', 'e']
