@@ -1,4 +1,4 @@
-#This is class
+#This is simple
 class A:
     def __init__(self,n = 'jnanesh'):
         self.name = n
@@ -14,6 +14,7 @@ class B(A):
         self.roll = roll
     def hi(self,message = 'hi'):
         return "from child"
+    #End of class
 
 
 object = B(23)
