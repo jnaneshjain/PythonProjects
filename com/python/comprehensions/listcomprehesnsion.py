@@ -1,7 +1,7 @@
-# Python program to demonstrate list comprehension in Python
+# Python Program To demonstrate List Comprehensions in Python
 
 # below list contains square of all odd numbers from
-# range 1 to 10
+# Range 1 to 10
 odd_square = [x ** 2 for x in range(1, 11) if x % 2 == 1]
 print(odd_square)
 
@@ -28,6 +28,7 @@ for x in ["A", "B", "C"]])
 # list which extracts number
 string = "my phone number is : 11122 !!"
 
+#Simple print statement
 print("\nExtracted digits")
 numbers = [x for x in string if x.isdigit()]
 print(numbers)
@@ -39,3 +40,4 @@ table = [[a, b, a * b] for b in range(1, 11)]
 print("\nMultiplication Table")
 for i in table:
     print(i)
+#End of file list comprehensions

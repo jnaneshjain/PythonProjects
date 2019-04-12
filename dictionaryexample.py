@@ -1,3 +1,4 @@
+#This is dictionay example in python
 phone = input("Phone: ")
 digits_mapping = {
     "1" : "One",
